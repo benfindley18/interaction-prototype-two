@@ -7,7 +7,7 @@ class PasswordStrength extends Component {
     passwordStrength = (result) => {
         switch (result.score) {
             case 0:
-                return 'Weak';
+                return 'Very Weak';
             case 1:
                 return 'Weak';
             case 2:
